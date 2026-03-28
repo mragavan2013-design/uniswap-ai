@@ -74,7 +74,7 @@ The skill assembles and outputs a JSON object conforming to the OpenZeppelin Con
     "afterRemoveLiquidityReturnDelta": false
   },
   "shares": {
-    "type": "false"
+    "options": false
   },
   "access": "ownable",
   "inputs": {},
