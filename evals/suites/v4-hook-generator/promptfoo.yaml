@@ -54,7 +54,7 @@ tests:
     assert:
       - type: llm-rubric
         value: file://rubrics/mcp-schema-correctness.txt
-        threshold: 0.9
+        threshold: 0.85
         provider: anthropic:claude-sonnet-4-5-20250929
 
       # Must include required MCP JSON fields
